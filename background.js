@@ -65,7 +65,7 @@ async function go(){
     chrome.wallpaper.setWallpaper(
       {
         'url': backgroundd_url,
-        'layout': 'STRETCH',
+        'layout': 'CENTER_CROPPED',
         'filename': 'backgroundd'
       },
       function() {
